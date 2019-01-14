@@ -1,3 +1,21 @@
+@font-face {
+  font-family: 'junctionregular';
+  src: url("../fonts/Junction-regular-webfont.eot");
+  src: url("../fonts/Junction-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Junction-regular-webfont.woff") format("woff"), url("../fonts/Junction-regular-webfont.ttf") format("truetype"), url("../fonts/Junction-regular-webfont.svg#junctionregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'junctionlight';
+  src: url("../fonts/Junction-light.otf");
+  src: url("../fonts/Junction-light.otf") format("otf"); }
+@font-face {
+  font-family: 'junctionbold';
+  src: url("../fonts/Junction-bold.otf");
+  src: url("../fonts/Junction-bold.otf") format("otf"); }
+@font-face {
+  font-family: 'junctionregular';
+  src: url("../fonts/Junction-regular.otf");
+  src: url("../fonts/Junction-regular.otf") format("otf"); }
 html,
 body {
   height: 100%;
@@ -28,7 +46,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+  font-family: junctionregular; }
 
 p {
   font-size: 16px;
@@ -68,6 +86,11 @@ aside {
     text-transform: uppercase; }
     .navbar-default .navbar-header .navbar-brand:hover, .navbar-default .navbar-header .navbar-brand:focus {
       color: #eb3812; }
+    .navbar-default .navbar-header .navbar-brand.navbar-logo {
+      background-image: url("../img/main-logo-black.png");
+      width: 150px;
+      background-size: 150px;
+      background-repeat: no-repeat; }
   .navbar-default .nav > li > a,
   .navbar-default .nav > li > a:focus {
     text-transform: uppercase;
@@ -92,6 +115,10 @@ aside {
         color: rgba(255, 255, 255, 0.7); }
         .navbar-default .navbar-header .navbar-brand:hover, .navbar-default .navbar-header .navbar-brand:focus {
           color: white; }
+        .navbar-default .navbar-header .navbar-brand.navbar-logo {
+          background-image: url("../img/main-logo-white.png");
+          width: 200px;
+          background-size: 200px; }
       .navbar-default .nav > li > a,
       .navbar-default .nav > li > a:focus {
         color: rgba(255, 255, 255, 0.7); }
@@ -102,10 +129,13 @@ aside {
         background-color: white;
         border-color: rgba(34, 34, 34, 0.5); }
         .navbar-default.affix .navbar-header .navbar-brand {
+          width: 200px;
           color: #F05F40;
           font-size: 14px; }
           .navbar-default.affix .navbar-header .navbar-brand:hover, .navbar-default.affix .navbar-header .navbar-brand:focus {
             color: #eb3812; }
+          .navbar-default.affix .navbar-header .navbar-brand.navbar-logo {
+            background-image: url("../img/main-logo-white.png"); }
         .navbar-default.affix .nav > li > a,
         .navbar-default.affix .nav > li > a:focus {
           color: #222; }
@@ -140,17 +170,20 @@ section.header {
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
-        padding: 0 50px;
+        padding: 50px;
+        width: 500px;
         top: 45%;
         left: 0;
         right: 0;
-        margin-top: 100px; }
+        margin: 0 auto;
+        background: rgba(0, 0, 0, 0.5); }
         section.header .header-content .header-content-inner {
           max-width: 500px;
           margin-left: auto;
           margin-right: auto; }
           section.header .header-content .header-content-inner h1 {
-            font-size: 24px; }
+            font-size: 24px;
+            opacity: 0.7; }
           section.header .header-content .header-content-inner p {
             font-size: 18px;
             max-width: 80%;
