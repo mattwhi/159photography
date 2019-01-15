@@ -1,13 +1,5 @@
-<<<<<<< HEAD
 ---
 deployment:
   tasks:
     - export DEPLOYPATH=/home/craftsca/159photography
     - /bin/cp /_site/* $DEPLOYPATH
-=======
---- 
-deployment: 
-  tasks: 
-    - export DEPLOYPATH=/home/craftsca/159photography.com
-    - /bin/cp /_site/* $DEPLOYPATH
->>>>>>> 6bfeb5b90c685f217f2eed1814425bf0fa32e0bc
