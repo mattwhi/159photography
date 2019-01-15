@@ -64,7 +64,7 @@ p {
   color: rgba(255, 255, 255, 0.7); }
 
 section {
-  padding: 100px 0; }
+  padding: 200px 0; }
 
 aside {
   padding: 50px 0; }
@@ -166,7 +166,7 @@ section.header {
     section.header {
       min-height: 100%; }
       section.header .header-content {
-        position: relative;
+        position: absolute;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
@@ -176,6 +176,7 @@ section.header {
         left: 0;
         right: 0;
         margin: 0 auto;
+        margin-bottom: 0;
         background: rgba(0, 0, 0, 0.5); }
         section.header .header-content .header-content-inner {
           max-width: 500px;

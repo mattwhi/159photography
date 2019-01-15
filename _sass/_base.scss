@@ -56,7 +56,7 @@ p {
 }
 
 section {
-    padding: 100px 0;
+    padding: 200px 0;
 }
 
 aside {
@@ -190,7 +190,7 @@ section.header {
     @media (min-width: 768px) {
         min-height: 100%;
         .header-content {
-            position: relative;
+            position: absolute;
             -webkit-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
@@ -200,6 +200,7 @@ section.header {
             left: 0;
             right: 0;
             margin: 0 auto;
+            margin-bottom: 0;
             background: rgba(0,0,0,0.5);
             .header-content-inner {
                 max-width: 500px;
