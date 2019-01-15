@@ -2,4 +2,4 @@
 deployment: 
   tasks: 
     - "export DEPLOYPATH=/home/craftsca/159photography.com"
-    - "/bin cp /_site/* $DEPLOYPATH"
+    - "/bin/cp /_site/* $DEPLOYPATH"
