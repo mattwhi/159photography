@@ -1,13 +1,13 @@
 # Site settings
 title: 159 Photography
-email:
+email: info@159photography.co.uk
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "https://www.159photography.co.uk" # the base hostname & protocol for your site
 
-twitter_username:
+twitter_username: 
 github_username:
-facebook_username: 
+facebook_username: https://www.facebook.com/159photography/
 
 # Build settings
 markdown: kramdown
