@@ -96,8 +96,8 @@
 </section>
 </div>
 
-  <section class="bg-primary about" id="about">
-    <div class="container">
+  <section id="about" class="about">
+    <div class="about-content container my-paroller">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 <h2 class="section-heading">Photography For Your Events</h2>
@@ -107,19 +107,17 @@
             </div>
         </div>
     </div>
-</section>
+</section>  
 
-  <section class="service" id="services">
-    <div class="container">
+  <section id="services" class="service">
+    <div class="service-content container my-paroller">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">At Your Service</h2>
                 <hr class="primary">
             </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="row">
+            <div class="col-md-12">
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
                     <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
@@ -151,6 +149,7 @@
         </div>
     </div>
 </section>
+
 
   <section class="no-padding" id="portfolio">
     <div class="container-fluid">
@@ -267,12 +266,12 @@
                 <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
             </div>
         <div class="col-lg-2 col-lg-offset-2 text-center">
-            <a href="https://twitter.com/https://www.facebook.com/159photography/">
+            <a href="https://twitter.com/">
                 <i class="fa fa-twitter fa-3x wow bounceIn" data-wow-delay=".1s"></i>
             </a>
         </div>
         <div class="col-lg-2 col-lg-offset-1 text-center">
-            <a href="mailto:">
+            <a href="mailto:info@159photography.co.uk">
             <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
             </a>
         </div>
@@ -316,7 +315,7 @@
                         </a>
                     </div>
                     <div class="footer-social">
-                        <a href="https://twitter.com/https://www.facebook.com/159photography/" target="_blank">
+                        <a href="https://twitter.com/" target="_blank">
                             <i class="fa fa-twitter fa-3x wow bounceIn" data-wow-delay=".1s"></i>
                         </a>
                     </div>
@@ -346,6 +345,16 @@
 
 <!-- Custom Theme JavaScript -->
 <script src="js/creative.js"></script>
+
+<!-- Parallax -->
+<script src="js/jquery.paroller.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(".my-paroller").paroller({ factor: 0.3, factorXs: 0.2, type: 'foreground', direction: 'vertical' });
+    });   
+</script>
+
 
 
 </body>
