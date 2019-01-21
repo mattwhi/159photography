@@ -1,7 +1,7 @@
 ---
 layout: front
 
-###SEO
+###SEO Head
 
 metatitle: 159 Photography | Event Photography | Wedding Photography | West Yorkshire
 
@@ -38,4 +38,31 @@ service-box-3-content: Family or individual photogrpahy on location.
 
 service-box-4-header: Promotional Photography
 service-box-4-content: Personal promotion or product photography for you or your business.
+
+###Portfolio section
+
+portfolio-image-1: 1.jpg
+portfolio-image-1-alt: An image of 159 photography event
+portfolio-image-1-title:
+
+portfolio-image-2: 2.jpg
+portfolio-image-2-alt: An image of 159 photography event
+portfolio-image-2-title:
+
+portfolio-image-3: 3.jpg
+portfolio-image-3-alt: An image of 159 photography event
+portfolio-image-3-title:
+
+portfolio-image-4: 4.jpg
+portfolio-image-4-alt: An image of 159 photography event
+portfolio-image-4-title:
+
+portfolio-image-5: 5.jpg
+portfolio-image-5-alt: An image of 159 photography event
+portfolio-image-5-title:
+
+portfolio-image-6: 6.jpg
+portfolio-image-6-alt: An image of 159 photography event
+portfolio-image-6-title:
+
 ---
