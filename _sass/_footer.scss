@@ -1,0 +1,23 @@
+/*footer*/
+section.footer {
+    padding: 20px 0 0 0;
+    background-color: $theme-primary;
+    ul {
+        padding-left: 0;
+    }
+    .footer-feature {
+        padding-bottom: 30px;
+    }
+    .footer-social {
+        display: inline-flex;
+        padding-right: 10px;
+    }
+    a {
+        color: #ddd;
+        &:hover {
+            text-decoration: none;
+            color: $theme-dark ;
+        };
+    }
+
+}

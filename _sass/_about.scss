@@ -1,0 +1,28 @@
+/* About Section */
+.about {
+    height:100%;
+    margin-bottom: 0;
+    background-image: url('../img/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: -324px 0px;
+    padding: 200px 0;
+    .about-content {
+        top: 50%;
+        color: #fff;
+    }
+}
+@media (min-width: 768px) {
+    .about {
+        height: 100%;
+        height: 100vh;
+        background-position: 0px 0px;
+        padding-top: 200px;
+    }
+    .about-content {
+        width: 800px;
+        height: 200px;
+        color: #fff; 
+    }
+}

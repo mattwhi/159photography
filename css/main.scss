@@ -69,5 +69,10 @@ $my-font-regular: junctionregular;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "mixins",
-        "base"
+        "base",
+        "header",
+        "about",
+        "service",
+        "portfolio",
+        "footer"
 ;

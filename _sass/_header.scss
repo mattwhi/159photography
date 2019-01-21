@@ -1,0 +1,53 @@
+// Homepage Header
+section.header {
+    height: 100%;
+    margin: 0 20px;
+    padding: 200px 0;
+    .header-content {
+        .header-content-inner {
+            text-align: center;
+            h1 {
+                font-weight: 700;
+                text-transform: uppercase;
+                margin-top: 0;
+                margin-bottom: 0;
+                color: #f8f8f8;
+                font-size: 16px;
+            }
+            hr {
+                margin: 5px auto;
+            }
+            p {
+                font-weight: 300;
+                color: rgba(white, .7);
+                font-size: 12px;
+                margin-bottom: 0px;
+            }
+        }
+    }
+    @media (min-width: 768px) {
+        min-height: 100%;
+        .header-content {
+            position: absolute;
+            padding: 50px;
+            width: 500px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            background: rgba(0,0,0,0.5);
+            .header-content-inner {
+                h1 {
+                    font-size: 24px;
+                    opacity: 0.7;
+                }
+                p {
+                    font-size: 18px;
+                    max-width: 80%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}
