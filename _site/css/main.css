@@ -381,6 +381,12 @@ section.header {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
       font-size: 22px; } }
 
+section.contact {
+  padding: 50px 0; }
+  @media (min-width: 768px) {
+    section.contact {
+      padding: 100px 0; } }
+
 /*footer*/
 section.footer {
   padding: 20px 0 0 0;
