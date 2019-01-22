@@ -1,58 +1,76 @@
 /*footer*/
 section.footer {
-    padding: 20px 0 0 0;
-    background-color: $theme-primary;
+    padding: 20px 0;
+    background: url('../img/ben-wales.png');
+    background-color: #999;
+    background-position: -300px 0px;
+    text-align: center;
     ul {
         padding-left: 0;
     }
     .footer-feature {
         padding-bottom: 30px;
-    }
-    .footer-social {
-        display: inline-flex;
-        padding-right: 10px;
+        .footer-social {
+            display: inline-flex;
+        }
     }
     a {
         color: #ddd;
         &:hover {
             text-decoration: none;
-            color: $theme-dark ;
-        };
+            color: $theme-dark;
+        }
     }
+}
+@media (min-width: 512px) {
+    section.footer {
+        background: url('../img/ben-wales.png');
+        background-position: 0px 0px;
+        text-align: left;
+    }
+}
+
 @media (min-width: 768px) {
+    section.footer {
         padding: 100px 20px;
         .copyright {
             margin-top: 20px;
         }
-            ul.footer-nav {
-                    li {
-                        display: inline-block;
-                        border-left: 1px solid #000;
-                        padding:0 5px;
-                        font-size: 12px;
-                        &:first-of-type {
-                            border-left: none;
-                        }
-                        a {
-                            color: #333;
-                            &:hover {
-                                color: $theme-dark;
-                            }
-                            &:visted {
-                                color: #333;
-                            }
-                        }
+        ul.footer-nav {
+            li {
+                display: inline-block;
+                border-left: 1px solid #000;
+                padding:0 5px;
+                font-size: 12px;
+                &:first-of-type {
+                    border-left: none;
+                }
+                a {
+                    color: #333;
+                    &:hover {
+                        color: $theme-dark;
+                    }
+                    &:visted {
+                        color: #333;
                     }
                 }
-            .footer-feature {
-                padding-left: 50px;
-                &:nth-child(1) {
+            }
+        }
+        .footer-feature {
+            padding-left: 50px;
+            &:nth-child(1) {
                 border-right: 1px solid #000;
             }
-            .col-half {
-                width: 50%;
-                float: left;
+            .footer-social {
+                padding-left: 20px;
+                &:first-of-type {
+                    padding-left: 0;
+                }
             }
+        }
+        .col-half {
+            width: 50%;
+            float: left;
         }
     }
 }

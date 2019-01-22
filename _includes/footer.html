@@ -12,12 +12,12 @@
                <div class="col-md-6 footer-feature">
                 <div class="col-half">
                 <h3>Contact</h3>
-                    <ul>
-                        <li>159 Photography</li>
-                        <li>Hare Park Lane</li>
-                        <li>Cleckheaton</li>
-                        <li>West Yorkshire</li>
-                        <li><a href="mailto:info@159photography.co.uk">info@159photography.co.uk</a> </li>
+                    <p class="address">
+                        159 Photography<br />
+                        Hare Park Lane<br />
+                        Cleckheaton<br />
+                        West Yorkshire<br />
+                    <a href="mailto:info@159photography.co.uk">info@159photography.co.uk</a> </li>
                     </ul>
                     </div>
                     <div class="col-half">
@@ -33,8 +33,13 @@
                         </a>
                     </div>
                     <div class="footer-social">
-                        <a href="https://twitter.com/{{ site.instagram.username }}" target="_blank">
+                        <a href="https://www.instagram.com/{{ site.instagram_username }}" target="_blank">
                             <i class="fa fa-instagram fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                        </a>
+                    </div>
+                    <div class="footer-social">
+                        <a href="mailto:{{ site.email }}" target="_blank">
+                            <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
                         </a>
                     </div>
                 </div>
