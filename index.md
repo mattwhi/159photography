@@ -39,7 +39,7 @@ service-box-3-content: Family or individual photogrpahy on location.
 service-box-4-header: Promotional Photography
 service-box-4-content: Personal promotion or product photography for you or your business.
 
-###Portfolio section
+###Portfolio sections
 
 portfolio-image-1: 1.jpg
 portfolio-image-1-alt: An image of 159 photography event
