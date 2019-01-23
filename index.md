@@ -50,7 +50,7 @@ portfolio-image-2-alt: jenkins jenkins jenkins
 portfolio-image-2-title:
 
 portfolio-image-3: 3.jpg
-portfolio-image-3-alt: jet
+portfolio-image-3-alt: jenkins jenkins jenkins
 portfolio-image-3-title:
 
 portfolio-image-4: 4.jpg
