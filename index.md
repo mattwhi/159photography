@@ -46,7 +46,7 @@ portfolio-image-1-alt: Lets see jenkins working
 portfolio-image-1-title:
 
 portfolio-image-2: 2.jpg
-portfolio-image-2-alt: An image of 159 photography event
+portfolio-image-2-alt: jenkins jenkins jenkins
 portfolio-image-2-title:
 
 portfolio-image-3: 3.jpg
