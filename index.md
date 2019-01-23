@@ -23,7 +23,7 @@ about-content: 159 Photography offer a range of photography services to cover yo
 
 about-button: Find out more
 
-###service section 
+###service sections
 
 service-title: Services
 
