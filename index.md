@@ -11,7 +11,7 @@ metadescription: 159Photography, Professional, fun, event photography based in W
 
 title: 159 Photography
 
-header-title: cooking on gas
+header-title: Professional Event Photography in West Yorkshire
 
 header-sub-title: West Yorkshire based event photographer, experienced in all lines of photography
 
@@ -42,15 +42,15 @@ service-box-4-content: Personal promotion or product photography for you or your
 ###Portfolio sections
 
 portfolio-image-1: 1.jpg
-portfolio-image-1-alt: Lets see jenkins workingwswsww
+portfolio-image-1-alt: An image of 159 photography event
 portfolio-image-1-title:
 
 portfolio-image-2: 2.jpg
 portfolio-image-2-alt: 
-portfolio-image-2-title: Lets see it work please work
+portfolio-image-2-title: An image of 159 photography event
 
 portfolio-image-3: 3.jpg
-portfolio-image-3-alt: jenkins jenkins jenkins12xsxsxs
+portfolio-image-3-alt: An image of 159 photography event
 portfolio-image-3-title:
 
 portfolio-image-4: 4.jpg
