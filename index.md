@@ -42,7 +42,7 @@ service-box-4-content: Personal promotion or product photography for you or your
 ###Portfolio sections
 
 portfolio-image-1: 1.jpg
-portfolio-image-1-alt: Lets see jenkins 
+portfolio-image-1-alt: Lets see jenkins working
 portfolio-image-1-title:
 
 portfolio-image-2: 2.jpg
