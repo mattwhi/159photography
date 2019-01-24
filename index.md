@@ -11,7 +11,7 @@ metadescription: 159Photography, Professional, fun, event photography based in W
 
 title: cooking on gas
 
-header-title: Professional Photography for your Event
+header-title: cooking on gas
 
 header-sub-title: West Yorkshire based event photographer, experienced in all lines of photography
 
