@@ -47,7 +47,7 @@ portfolio-image-1-title:
 
 portfolio-image-2: 2.jpg
 portfolio-image-2-alt: 
-portfolio-image-2-title:
+portfolio-image-2-title: Lets see it work
 
 portfolio-image-3: 3.jpg
 portfolio-image-3-alt: jenkins jenkins jenkins12
